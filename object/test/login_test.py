@@ -64,6 +64,7 @@ class TestCase(unittest.TestCase):
             status = get_apply_info(apply_no)['status']
             loan_type = get_apply_info(apply_no)['loan_type']
             sub_type = get_apply_info(apply_no)['sub_type']
+            print(status)
             # 获取互金线上签约与用户登陆账号
             login_name_list = get_login_name(apply_no)
             # 获取共签人列表
